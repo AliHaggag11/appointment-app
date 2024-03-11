@@ -1,27 +1,80 @@
-# AppointmentApp
+# Appointment Management App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+This is an Angular application for managing appointments. Users can add, view, and delete appointments using this app.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add appointments with a title and date
+- View a list of all appointments
+- Delete appointments from the list
+- Appointments are stored locally and persist between sessions
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: v12.0.0
+- TypeScript: v4.3.2
+- HTML/CSS
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/your-username/appointment-app.git
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navigate to the project directory:
 
-## Running end-to-end tests
+   ```bash
+   cd appointment-app
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install dependencies:
 
-## Further help
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+2. Open your web browser and navigate to `http://localhost:4200`.
+
+3. Use the application to manage your appointments.
+
+## Screenshots
+
+![Screenshot 1](/screenshots/screenshot1.png)
+*Screenshot description here*
+
+![Screenshot 2](/screenshots/screenshot2.png)
+*Screenshot description here*
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/my-feature`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- The [Angular](https://angular.io/) team for their awesome framework.
+- Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).
+
+## Contact
+
+For any inquiries or issues, please contact [Your Name](mailto:your.email@example.com).
