@@ -47,7 +47,7 @@ This is an Angular application for managing appointments. Users can add, view, a
 
 3. Use the application to manage your appointments.
 
-## Screenshots
+<!-- ## Screenshots -->
 
 ![Screenshot 1](/screenshots/screenshot1.png)
 *Screenshot description here*
